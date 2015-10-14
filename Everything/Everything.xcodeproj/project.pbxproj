@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A2830CF31BCE1A86002E1C8B /* FeatureMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = A2830CF21BCE1A86002E1C8B /* FeatureMeta.m */; settings = {ASSET_TAGS = (); }; };
 		A2830CFA1BCE1E00002E1C8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2830CF91BCE1E00002E1C8B /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A2830CFD1BCE1E9F002E1C8B /* ScreenShotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2830CFC1BCE1E9F002E1C8B /* ScreenShotViewController.m */; settings = {ASSET_TAGS = (); }; };
 		A29347F41BC76B3000D4989B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A29347F31BC76B3000D4989B /* main.m */; };
 		A29347F71BC76B3000D4989B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A29347F61BC76B3000D4989B /* AppDelegate.m */; };
 		A29347FD1BC76B3000D4989B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29347FB1BC76B3000D4989B /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 		A2830CF21BCE1A86002E1C8B /* FeatureMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeatureMeta.m; path = Model/FeatureMeta.m; sourceTree = "<group>"; };
 		A2830CF81BCE1E00002E1C8B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ViewController/ViewController.h; sourceTree = "<group>"; };
 		A2830CF91BCE1E00002E1C8B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ViewController/ViewController.m; sourceTree = "<group>"; };
+		A2830CFB1BCE1E9F002E1C8B /* ScreenShotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenShotViewController.h; path = ViewController/ScreenShotViewController.h; sourceTree = "<group>"; };
+		A2830CFC1BCE1E9F002E1C8B /* ScreenShotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScreenShotViewController.m; path = ViewController/ScreenShotViewController.m; sourceTree = "<group>"; };
 		A29347EF1BC76B3000D4989B /* Everything.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Everything.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29347F31BC76B3000D4989B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A29347F51BC76B3000D4989B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 			children = (
 				A2830CF81BCE1E00002E1C8B /* ViewController.h */,
 				A2830CF91BCE1E00002E1C8B /* ViewController.m */,
+				A2830CFB1BCE1E9F002E1C8B /* ScreenShotViewController.h */,
+				A2830CFC1BCE1E9F002E1C8B /* ScreenShotViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 				A29347F71BC76B3000D4989B /* AppDelegate.m in Sources */,
 				A29347F41BC76B3000D4989B /* main.m in Sources */,
 				A2830CFA1BCE1E00002E1C8B /* ViewController.m in Sources */,
+				A2830CFD1BCE1E9F002E1C8B /* ScreenShotViewController.m in Sources */,
 				A2830CF31BCE1A86002E1C8B /* FeatureMeta.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

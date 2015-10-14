@@ -13,6 +13,7 @@
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *content;
 
-@property (nonatomic, strong) NSString *controllerName;
+@property (nonatomic, strong) NSString *controllerClassName;
+@property (nonatomic, strong) NSString *controllerSBID;
 
 @end
