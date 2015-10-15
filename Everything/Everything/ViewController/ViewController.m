@@ -45,7 +45,11 @@ static NSString *ViewControllerTableViewCellIdentifier = @"ViewControllerTableVi
     screenShotNotification.title = @"Screen Shot Notification";
     screenShotNotification.controllerSBID = @"ScreenShotSBID";
 
-    return @[@[screenShotNotification]];
+    FeatureMeta *imageWithColorView = [[FeatureMeta alloc] init];
+    imageWithColorView.title = @"UIImage(Color)";
+    imageWithColorView.controllerSBID = @"ImageWithColorSBID";
+
+    return @[@[screenShotNotification], @[imageWithColorView]];
 }
 
 #pragma mark - UITableViewDataSource, UITableViewDelegate

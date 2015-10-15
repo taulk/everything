@@ -17,6 +17,8 @@
 		A29348021BC76B3000D4989B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29348001BC76B3000D4989B /* LaunchScreen.storyboard */; };
 		A293480D1BC76B3000D4989B /* EverythingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A293480C1BC76B3000D4989B /* EverythingTests.m */; };
 		A29348181BC76B3000D4989B /* EverythingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A29348171BC76B3000D4989B /* EverythingUITests.m */; };
+		A2DFB4AF1BCE2D3B004C1D76 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DFB4AE1BCE2D3B004C1D76 /* UIImage+Color.m */; settings = {ASSET_TAGS = (); }; };
+		A2DFB4B21BCE2EB7004C1D76 /* ImageWithColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DFB4B11BCE2EB7004C1D76 /* ImageWithColorViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		A29348131BC76B3000D4989B /* EverythingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverythingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29348171BC76B3000D4989B /* EverythingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EverythingUITests.m; sourceTree = "<group>"; };
 		A29348191BC76B3000D4989B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DFB4AD1BCE2D3B004C1D76 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Color.h"; path = "Util/UIImage+Color.h"; sourceTree = "<group>"; };
+		A2DFB4AE1BCE2D3B004C1D76 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Color.m"; path = "Util/UIImage+Color.m"; sourceTree = "<group>"; };
+		A2DFB4B01BCE2EB7004C1D76 /* ImageWithColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageWithColorViewController.h; path = ViewController/ImageWithColorViewController.h; sourceTree = "<group>"; };
+		A2DFB4B11BCE2EB7004C1D76 /* ImageWithColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageWithColorViewController.m; path = ViewController/ImageWithColorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +106,17 @@
 				A2830CF91BCE1E00002E1C8B /* ViewController.m */,
 				A2830CFB1BCE1E9F002E1C8B /* ScreenShotViewController.h */,
 				A2830CFC1BCE1E9F002E1C8B /* ScreenShotViewController.m */,
+				A2DFB4B01BCE2EB7004C1D76 /* ImageWithColorViewController.h */,
+				A2DFB4B11BCE2EB7004C1D76 /* ImageWithColorViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		A2830CFE1BCE2C5A002E1C8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		A29347E61BC76B3000D4989B = {
@@ -127,6 +142,8 @@
 		A29347F11BC76B3000D4989B /* Everything */ = {
 			isa = PBXGroup;
 			children = (
+				A2DFB4AC1BCE2D10004C1D76 /* Util */,
+				A2830CFE1BCE2C5A002E1C8B /* View */,
 				A2830CF41BCE1C61002E1C8B /* Controller */,
 				A2830CF01BCE1A04002E1C8B /* Model */,
 				A29347F51BC76B3000D4989B /* AppDelegate.h */,
@@ -164,6 +181,15 @@
 				A29348191BC76B3000D4989B /* Info.plist */,
 			);
 			path = EverythingUITests;
+			sourceTree = "<group>";
+		};
+		A2DFB4AC1BCE2D10004C1D76 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A2DFB4AD1BCE2D3B004C1D76 /* UIImage+Color.h */,
+				A2DFB4AE1BCE2D3B004C1D76 /* UIImage+Color.m */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +325,10 @@
 				A29347F71BC76B3000D4989B /* AppDelegate.m in Sources */,
 				A29347F41BC76B3000D4989B /* main.m in Sources */,
 				A2830CFA1BCE1E00002E1C8B /* ViewController.m in Sources */,
+				A2DFB4AF1BCE2D3B004C1D76 /* UIImage+Color.m in Sources */,
 				A2830CFD1BCE1E9F002E1C8B /* ScreenShotViewController.m in Sources */,
 				A2830CF31BCE1A86002E1C8B /* FeatureMeta.m in Sources */,
+				A2DFB4B21BCE2EB7004C1D76 /* ImageWithColorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
