@@ -49,7 +49,11 @@ static NSString *ViewControllerTableViewCellIdentifier = @"ViewControllerTableVi
     imageWithColorView.title = @"UIImage(Color)";
     imageWithColorView.controllerSBID = @"ImageWithColorSBID";
 
-    return @[@[screenShotNotification], @[imageWithColorView]];
+    FeatureMeta *speak = [[FeatureMeta alloc] init];
+    speak.title = @"Speak(AVSpeechSynthesizer)";
+    speak.controllerSBID = @"SpeakSBID";
+
+    return @[@[screenShotNotification], @[imageWithColorView], @[speak]];
 }
 
 #pragma mark - UITableViewDataSource, UITableViewDelegate
