@@ -51,4 +51,14 @@
     [self speakWithWords:words];
 }
 
+/*
+ *
+ * Override this method to dismiss the keyboard wherever else than the textfield is pressed.
+ */
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self.textField resignFirstResponder];
+}
+
 @end
