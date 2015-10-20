@@ -53,7 +53,11 @@ static NSString *ViewControllerTableViewCellIdentifier = @"ViewControllerTableVi
     speak.title = @"Speak(AVSpeechSynthesizer)";
     speak.controllerSBID = @"SpeakSBID";
 
-    return @[@[screenShotNotification], @[imageWithColorView], @[speak]];
+    FeatureMeta *gcdLock = [[FeatureMeta alloc] init];
+    gcdLock.title = @"GCD dead Lock";
+    gcdLock.controllerSBID = @"GCDLockSBID";
+
+    return @[@[screenShotNotification], @[imageWithColorView], @[speak], @[gcdLock]];
 }
 
 #pragma mark - UITableViewDataSource, UITableViewDelegate

@@ -17,6 +17,7 @@
 		A29348021BC76B3000D4989B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29348001BC76B3000D4989B /* LaunchScreen.storyboard */; };
 		A293480D1BC76B3000D4989B /* EverythingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A293480C1BC76B3000D4989B /* EverythingTests.m */; };
 		A29348181BC76B3000D4989B /* EverythingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A29348171BC76B3000D4989B /* EverythingUITests.m */; };
+		A29E8C841BD0FFEE0079C802 /* GCDLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A29E8C831BD0FFEE0079C802 /* GCDLockViewController.m */; settings = {ASSET_TAGS = (); }; };
 		A2AB55BC1BD0E41F00A09B5D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AB55BB1BD0E41F00A09B5D /* AVFoundation.framework */; };
 		A2DFB4AF1BCE2D3B004C1D76 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DFB4AE1BCE2D3B004C1D76 /* UIImage+Color.m */; settings = {ASSET_TAGS = (); }; };
 		A2DFB4B21BCE2EB7004C1D76 /* ImageWithColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DFB4B11BCE2EB7004C1D76 /* ImageWithColorViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -61,6 +62,8 @@
 		A29348131BC76B3000D4989B /* EverythingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverythingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29348171BC76B3000D4989B /* EverythingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EverythingUITests.m; sourceTree = "<group>"; };
 		A29348191BC76B3000D4989B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29E8C821BD0FFEE0079C802 /* GCDLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDLockViewController.h; path = ViewController/GCDLockViewController.h; sourceTree = "<group>"; };
+		A29E8C831BD0FFEE0079C802 /* GCDLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDLockViewController.m; path = ViewController/GCDLockViewController.m; sourceTree = "<group>"; };
 		A2AB55BB1BD0E41F00A09B5D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A2DFB4AD1BCE2D3B004C1D76 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Color.h"; path = "Util/UIImage+Color.h"; sourceTree = "<group>"; };
 		A2DFB4AE1BCE2D3B004C1D76 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Color.m"; path = "Util/UIImage+Color.m"; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				A2DFB4B11BCE2EB7004C1D76 /* ImageWithColorViewController.m */,
 				A2DFB4F41BD0E15A004C1D76 /* SpeakViewController.h */,
 				A2DFB4F51BD0E15A004C1D76 /* SpeakViewController.m */,
+				A29E8C821BD0FFEE0079C802 /* GCDLockViewController.h */,
+				A29E8C831BD0FFEE0079C802 /* GCDLockViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -345,6 +350,7 @@
 				A2830CFA1BCE1E00002E1C8B /* ViewController.m in Sources */,
 				A2DFB4F61BD0E15A004C1D76 /* SpeakViewController.m in Sources */,
 				A2DFB4AF1BCE2D3B004C1D76 /* UIImage+Color.m in Sources */,
+				A29E8C841BD0FFEE0079C802 /* GCDLockViewController.m in Sources */,
 				A2830CFD1BCE1E9F002E1C8B /* ScreenShotViewController.m in Sources */,
 				A2830CF31BCE1A86002E1C8B /* FeatureMeta.m in Sources */,
 				A2DFB4B21BCE2EB7004C1D76 /* ImageWithColorViewController.m in Sources */,
