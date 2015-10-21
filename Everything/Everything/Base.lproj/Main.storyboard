@@ -4,6 +4,44 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
+        <!--UICopyLabel-->
+        <scene sceneID="JBC-Nh-RpO">
+            <objects>
+                <viewController storyboardIdentifier="UICopyLabelSBID" id="SVm-fV-AkD" customClass="UICopyLabelViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RSi-x4-NT6"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yzg-cj-ThS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IzR-ol-r2o">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You know you can copy this.Just long press." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0yd-56-gB4" customClass="UICopyLabel">
+                                <rect key="frame" x="180" y="228" width="240" height="80"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.85438603940000002" green="0.85438603940000002" blue="0.85438603940000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="eMl-Ix-ryF"/>
+                                    <constraint firstAttribute="height" constant="80" id="y1I-PZ-nUo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0yd-56-gB4" firstAttribute="centerY" secondItem="IzR-ol-r2o" secondAttribute="centerY" id="ZdZ-Py-OiI"/>
+                            <constraint firstItem="0yd-56-gB4" firstAttribute="centerX" secondItem="IzR-ol-r2o" secondAttribute="centerX" id="igI-o9-dwr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="UICopyLabel" id="aKr-Ip-ZXV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2jm-an-Qxh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2954" y="-3688"/>
+        </scene>
         <!--GCD Lock-->
         <scene sceneID="QaB-op-1oX">
             <objects>
@@ -305,6 +343,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G3Q-9Y-E68" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2142" y="-2778"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="L15-8G-8ow">
+            <objects>
+                <navigationController storyboardIdentifier="UICopyLabelNavSBID" automaticallyAdjustsScrollViewInsets="NO" id="xUs-Yp-b9c" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="H4E-uJ-oKC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="SVm-fV-AkD" kind="relationship" relationship="rootViewController" id="LYI-cA-oBl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rgy-3T-hjE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2142" y="-3688"/>
         </scene>
     </scenes>
 </document>

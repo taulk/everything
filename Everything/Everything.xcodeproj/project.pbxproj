@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A20E97CA1BD7458100209C07 /* UICopyLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E97C91BD7458100209C07 /* UICopyLabelViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A20E97CD1BD7495500209C07 /* UICopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E97CC1BD7495500209C07 /* UICopyLabel.m */; settings = {ASSET_TAGS = (); }; };
 		A2830CF31BCE1A86002E1C8B /* FeatureMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = A2830CF21BCE1A86002E1C8B /* FeatureMeta.m */; settings = {ASSET_TAGS = (); }; };
 		A2830CFA1BCE1E00002E1C8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2830CF91BCE1E00002E1C8B /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		A2830CFD1BCE1E9F002E1C8B /* ScreenShotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2830CFC1BCE1E9F002E1C8B /* ScreenShotViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -42,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A20E97C81BD7458100209C07 /* UICopyLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UICopyLabelViewController.h; path = ViewController/UICopyLabelViewController.h; sourceTree = "<group>"; };
+		A20E97C91BD7458100209C07 /* UICopyLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICopyLabelViewController.m; path = ViewController/UICopyLabelViewController.m; sourceTree = "<group>"; };
+		A20E97CB1BD7495500209C07 /* UICopyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UICopyLabel.h; path = View/UICopyLabel.h; sourceTree = "<group>"; };
+		A20E97CC1BD7495500209C07 /* UICopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICopyLabel.m; path = View/UICopyLabel.m; sourceTree = "<group>"; };
 		A2830CF11BCE1A86002E1C8B /* FeatureMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeatureMeta.h; path = Model/FeatureMeta.h; sourceTree = "<group>"; };
 		A2830CF21BCE1A86002E1C8B /* FeatureMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeatureMeta.m; path = Model/FeatureMeta.m; sourceTree = "<group>"; };
 		A2830CF81BCE1E00002E1C8B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ViewController/ViewController.h; sourceTree = "<group>"; };
@@ -121,6 +127,8 @@
 				A2DFB4F51BD0E15A004C1D76 /* SpeakViewController.m */,
 				A29E8C821BD0FFEE0079C802 /* GCDLockViewController.h */,
 				A29E8C831BD0FFEE0079C802 /* GCDLockViewController.m */,
+				A20E97C81BD7458100209C07 /* UICopyLabelViewController.h */,
+				A20E97C91BD7458100209C07 /* UICopyLabelViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -128,6 +136,8 @@
 		A2830CFE1BCE2C5A002E1C8B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A20E97CB1BD7495500209C07 /* UICopyLabel.h */,
+				A20E97CC1BD7495500209C07 /* UICopyLabel.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -346,11 +356,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A29347F71BC76B3000D4989B /* AppDelegate.m in Sources */,
+				A20E97CD1BD7495500209C07 /* UICopyLabel.m in Sources */,
 				A29347F41BC76B3000D4989B /* main.m in Sources */,
 				A2830CFA1BCE1E00002E1C8B /* ViewController.m in Sources */,
 				A2DFB4F61BD0E15A004C1D76 /* SpeakViewController.m in Sources */,
 				A2DFB4AF1BCE2D3B004C1D76 /* UIImage+Color.m in Sources */,
 				A29E8C841BD0FFEE0079C802 /* GCDLockViewController.m in Sources */,
+				A20E97CA1BD7458100209C07 /* UICopyLabelViewController.m in Sources */,
 				A2830CFD1BCE1E9F002E1C8B /* ScreenShotViewController.m in Sources */,
 				A2830CF31BCE1A86002E1C8B /* FeatureMeta.m in Sources */,
 				A2DFB4B21BCE2EB7004C1D76 /* ImageWithColorViewController.m in Sources */,

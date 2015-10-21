@@ -57,7 +57,11 @@ static NSString *ViewControllerTableViewCellIdentifier = @"ViewControllerTableVi
     gcdLock.title = @"GCD dead Lock";
     gcdLock.controllerSBID = @"GCDLockSBID";
 
-    return @[@[screenShotNotification], @[imageWithColorView], @[speak], @[gcdLock]];
+    FeatureMeta *enableCopyLabel = [[FeatureMeta alloc] init];
+    enableCopyLabel.title = @"UICopyLabel";
+    enableCopyLabel.controllerSBID = @"UICopyLabelSBID";
+
+    return @[@[screenShotNotification], @[imageWithColorView, enableCopyLabel], @[speak], @[gcdLock]];
 }
 
 #pragma mark - UITableViewDataSource, UITableViewDelegate
