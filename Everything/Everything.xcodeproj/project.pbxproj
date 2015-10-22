@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A20E97CA1BD7458100209C07 /* UICopyLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E97C91BD7458100209C07 /* UICopyLabelViewController.m */; settings = {ASSET_TAGS = (); }; };
 		A20E97CD1BD7495500209C07 /* UICopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E97CC1BD7495500209C07 /* UICopyLabel.m */; settings = {ASSET_TAGS = (); }; };
+		A20E981B1BD76B2700209C07 /* TableWithCopyCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E981A1BD76B2700209C07 /* TableWithCopyCellViewController.m */; settings = {ASSET_TAGS = (); }; };
 		A2830CF31BCE1A86002E1C8B /* FeatureMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = A2830CF21BCE1A86002E1C8B /* FeatureMeta.m */; settings = {ASSET_TAGS = (); }; };
 		A2830CFA1BCE1E00002E1C8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2830CF91BCE1E00002E1C8B /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		A2830CFD1BCE1E9F002E1C8B /* ScreenShotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2830CFC1BCE1E9F002E1C8B /* ScreenShotViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -48,6 +49,8 @@
 		A20E97C91BD7458100209C07 /* UICopyLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICopyLabelViewController.m; path = ViewController/UICopyLabelViewController.m; sourceTree = "<group>"; };
 		A20E97CB1BD7495500209C07 /* UICopyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UICopyLabel.h; path = View/UICopyLabel.h; sourceTree = "<group>"; };
 		A20E97CC1BD7495500209C07 /* UICopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICopyLabel.m; path = View/UICopyLabel.m; sourceTree = "<group>"; };
+		A20E98191BD76B2700209C07 /* TableWithCopyCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableWithCopyCellViewController.h; path = ViewController/TableWithCopyCellViewController.h; sourceTree = "<group>"; };
+		A20E981A1BD76B2700209C07 /* TableWithCopyCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableWithCopyCellViewController.m; path = ViewController/TableWithCopyCellViewController.m; sourceTree = "<group>"; };
 		A2830CF11BCE1A86002E1C8B /* FeatureMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeatureMeta.h; path = Model/FeatureMeta.h; sourceTree = "<group>"; };
 		A2830CF21BCE1A86002E1C8B /* FeatureMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeatureMeta.m; path = Model/FeatureMeta.m; sourceTree = "<group>"; };
 		A2830CF81BCE1E00002E1C8B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ViewController/ViewController.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 		A2830CF41BCE1C61002E1C8B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A20E98191BD76B2700209C07 /* TableWithCopyCellViewController.h */,
+				A20E981A1BD76B2700209C07 /* TableWithCopyCellViewController.m */,
 				A2830CF81BCE1E00002E1C8B /* ViewController.h */,
 				A2830CF91BCE1E00002E1C8B /* ViewController.m */,
 				A2830CFB1BCE1E9F002E1C8B /* ScreenShotViewController.h */,
@@ -361,6 +366,7 @@
 				A2830CFA1BCE1E00002E1C8B /* ViewController.m in Sources */,
 				A2DFB4F61BD0E15A004C1D76 /* SpeakViewController.m in Sources */,
 				A2DFB4AF1BCE2D3B004C1D76 /* UIImage+Color.m in Sources */,
+				A20E981B1BD76B2700209C07 /* TableWithCopyCellViewController.m in Sources */,
 				A29E8C841BD0FFEE0079C802 /* GCDLockViewController.m in Sources */,
 				A20E97CA1BD7458100209C07 /* UICopyLabelViewController.m in Sources */,
 				A2830CFD1BCE1E9F002E1C8B /* ScreenShotViewController.m in Sources */,

@@ -61,7 +61,11 @@ static NSString *ViewControllerTableViewCellIdentifier = @"ViewControllerTableVi
     enableCopyLabel.title = @"UICopyLabel";
     enableCopyLabel.controllerSBID = @"UICopyLabelSBID";
 
-    return @[@[screenShotNotification], @[imageWithColorView, enableCopyLabel], @[speak], @[gcdLock]];
+    FeatureMeta *tableWithCopyCell = [[FeatureMeta alloc] init];
+    tableWithCopyCell.title = @"TableWithCopyCell";
+    tableWithCopyCell.controllerSBID = @"TableWithCopyCellSBID";
+
+    return @[@[screenShotNotification], @[imageWithColorView, enableCopyLabel, tableWithCopyCell], @[speak], @[gcdLock]];
 }
 
 #pragma mark - UITableViewDataSource, UITableViewDelegate
