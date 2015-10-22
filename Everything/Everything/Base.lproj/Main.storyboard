@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dVx-Eu-nPz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dVx-Eu-nPz">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--UICopyLabel-->
@@ -344,6 +344,43 @@
             </objects>
             <point key="canvasLocation" x="2142" y="-2778"/>
         </scene>
+        <!--Shake-->
+        <scene sceneID="1iH-2H-Nl4">
+            <objects>
+                <viewController storyboardIdentifier="ShakeSBID" id="uHP-0D-2Hb" customClass="ShakeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cS8-ho-Qp9"/>
+                        <viewControllerLayoutGuide type="bottom" id="vlK-qW-tQv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="q8U-py-tfE">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake ME!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jUO-Oq-Ohb">
+                                <rect key="frame" x="250" y="255" width="100" height="26"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="D2I-F6-PmG"/>
+                                    <constraint firstAttribute="height" constant="26" id="ZTh-98-jt0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jUO-Oq-Ohb" firstAttribute="centerY" secondItem="q8U-py-tfE" secondAttribute="centerY" id="JhD-60-Fgf"/>
+                            <constraint firstItem="jUO-Oq-Ohb" firstAttribute="centerX" secondItem="q8U-py-tfE" secondAttribute="centerX" id="UBV-Un-Gjs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Shake" id="nvA-Qu-E0b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rrJ-WL-vk5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2954" y="-5323"/>
+        </scene>
         <!--TableWithCopyCell-->
         <scene sceneID="okd-1J-oqk">
             <objects>
@@ -421,6 +458,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0FX-sN-32j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2142" y="-4514"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Lr3-lb-lmA">
+            <objects>
+                <navigationController storyboardIdentifier="ShakeNavSBID" automaticallyAdjustsScrollViewInsets="NO" id="Kbq-4r-GBH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="iE4-vn-tl9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uHP-0D-2Hb" kind="relationship" relationship="rootViewController" id="8g4-8P-wfc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fO9-Ed-vih" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2142" y="-5323"/>
         </scene>
     </scenes>
 </document>

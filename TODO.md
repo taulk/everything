@@ -2,6 +2,6 @@
 ## TODO
 * Pasteboard
 * UIButton(Category) track click
-* Detect Shake
+* [-] Detect Shake
 * Music play interruption
 * Front camera
