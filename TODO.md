@@ -5,3 +5,5 @@
 * [-] Detect Shake
 * [ ] Music play interruption
 * [ ] Front camera
+* [ ] GPS
+* [ ] A common alertView
