@@ -7,3 +7,4 @@
 * [ ] Front camera
 * [ ] GPS
 * [ ] A common alertView
+* [ ] NSTimer
