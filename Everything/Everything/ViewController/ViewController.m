@@ -69,7 +69,11 @@ static NSString *ViewControllerTableViewCellIdentifier = @"ViewControllerTableVi
     shake.title = @"Shake";
     shake.controllerSBID = @"ShakeSBID";
 
-    return @[@[screenShotNotification, shake], @[imageWithColorView, enableCopyLabel, tableWithCopyCell], @[speak], @[gcdLock]];
+    FeatureMeta *location = [[FeatureMeta alloc] init];
+    location.title = @"Location";
+    location.controllerSBID = @"LocationSBID";
+
+    return @[@[screenShotNotification, shake], @[imageWithColorView, enableCopyLabel, tableWithCopyCell], @[speak, location], @[gcdLock]];
 }
 
 #pragma mark - UITableViewDataSource, UITableViewDelegate

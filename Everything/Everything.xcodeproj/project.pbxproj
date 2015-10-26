@@ -10,6 +10,8 @@
 		A20E97CA1BD7458100209C07 /* UICopyLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E97C91BD7458100209C07 /* UICopyLabelViewController.m */; };
 		A20E97CD1BD7495500209C07 /* UICopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E97CC1BD7495500209C07 /* UICopyLabel.m */; };
 		A20E981B1BD76B2700209C07 /* TableWithCopyCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E981A1BD76B2700209C07 /* TableWithCopyCellViewController.m */; };
+		A2702A771BDE0BE5009826F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2702A761BDE0BE5009826F0 /* CoreLocation.framework */; };
+		A2702A7A1BDE0C43009826F0 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2702A791BDE0C43009826F0 /* LocationViewController.m */; };
 		A28184E51BD8CC07009E981B /* ShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28184E41BD8CC07009E981B /* ShakeViewController.m */; };
 		A2830CF31BCE1A86002E1C8B /* FeatureMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = A2830CF21BCE1A86002E1C8B /* FeatureMeta.m */; };
 		A2830CFA1BCE1E00002E1C8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2830CF91BCE1E00002E1C8B /* ViewController.m */; };
@@ -52,6 +54,9 @@
 		A20E97CC1BD7495500209C07 /* UICopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICopyLabel.m; path = View/UICopyLabel.m; sourceTree = "<group>"; };
 		A20E98191BD76B2700209C07 /* TableWithCopyCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableWithCopyCellViewController.h; path = ViewController/TableWithCopyCellViewController.h; sourceTree = "<group>"; };
 		A20E981A1BD76B2700209C07 /* TableWithCopyCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableWithCopyCellViewController.m; path = ViewController/TableWithCopyCellViewController.m; sourceTree = "<group>"; };
+		A2702A761BDE0BE5009826F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A2702A781BDE0C43009826F0 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationViewController.h; path = ViewController/LocationViewController.h; sourceTree = "<group>"; };
+		A2702A791BDE0C43009826F0 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationViewController.m; path = ViewController/LocationViewController.m; sourceTree = "<group>"; };
 		A28184E31BD8CC07009E981B /* ShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShakeViewController.h; path = ViewController/ShakeViewController.h; sourceTree = "<group>"; };
 		A28184E41BD8CC07009E981B /* ShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShakeViewController.m; path = ViewController/ShakeViewController.m; sourceTree = "<group>"; };
 		A2830CF11BCE1A86002E1C8B /* FeatureMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeatureMeta.h; path = Model/FeatureMeta.h; sourceTree = "<group>"; };
@@ -90,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2702A771BDE0BE5009826F0 /* CoreLocation.framework in Frameworks */,
 				A2AB55BC1BD0E41F00A09B5D /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +145,8 @@
 				A20E97C91BD7458100209C07 /* UICopyLabelViewController.m */,
 				A28184E31BD8CC07009E981B /* ShakeViewController.h */,
 				A28184E41BD8CC07009E981B /* ShakeViewController.m */,
+				A2702A781BDE0C43009826F0 /* LocationViewController.h */,
+				A2702A791BDE0C43009826F0 /* LocationViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 		A2AB55BA1BD0E40500A09B5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A2702A761BDE0BE5009826F0 /* CoreLocation.framework */,
 				A2AB55BB1BD0E41F00A09B5D /* AVFoundation.framework */,
 			);
 			name = Frameworks;
@@ -374,6 +383,7 @@
 				A2DFB4AF1BCE2D3B004C1D76 /* UIImage+Color.m in Sources */,
 				A20E981B1BD76B2700209C07 /* TableWithCopyCellViewController.m in Sources */,
 				A29E8C841BD0FFEE0079C802 /* GCDLockViewController.m in Sources */,
+				A2702A7A1BDE0C43009826F0 /* LocationViewController.m in Sources */,
 				A20E97CA1BD7458100209C07 /* UICopyLabelViewController.m in Sources */,
 				A2830CFD1BCE1E9F002E1C8B /* ScreenShotViewController.m in Sources */,
 				A2830CF31BCE1A86002E1C8B /* FeatureMeta.m in Sources */,
