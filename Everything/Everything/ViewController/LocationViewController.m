@@ -18,6 +18,8 @@
 @property (nonatomic, assign, getter=isTracking) BOOL tracking;
 @property (nonatomic, strong) CLLocationManager *locationManager;
 
+@property (nonatomic, strong) CLGeocoder *geoCoder;
+
 @end
 
 @implementation LocationViewController
@@ -36,6 +38,8 @@
     self.locationManager = [[CLLocationManager alloc] init];
     self.locationManager.delegate = self;
     self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+
+    self.geoCoder = [[CLGeocoder alloc] init];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -63,6 +67,18 @@
 {
     self.latitudeLabel.text = [NSString stringWithFormat:@"%.8f", location.coordinate.latitude];
     self.longitudeLabel.text = [NSString stringWithFormat:@"%.8f", location.coordinate.longitude];
+
+    if (location) {
+        [self.geoCoder reverseGeocodeLocation:location completionHandler:^(NSArray<CLPlacemark *> * _Nullable placemarks, NSError * _Nullable error) {
+            if (error) {
+                NSLog(@"error : %@", error.debugDescription);
+            } else {
+                CLPlacemark *placemark = [placemarks lastObject];
+
+                self.addressLabel.text = [NSString stringWithFormat:@"%@\n%@ %@ %@ %@ %@", placemark.name, placemark.subThoroughfare, placemark.thoroughfare, placemark.locality, placemark.administrativeArea, placemark.country];
+            }
+        }];
+    }
 }
 
 - (IBAction)trackButtonAction:(id)sender {
