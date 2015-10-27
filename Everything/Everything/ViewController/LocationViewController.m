@@ -75,7 +75,7 @@
             } else {
                 CLPlacemark *placemark = [placemarks lastObject];
 
-                self.addressLabel.text = [NSString stringWithFormat:@"%@\n%@ %@ %@ %@ %@", placemark.name, placemark.subThoroughfare, placemark.thoroughfare, placemark.locality, placemark.administrativeArea, placemark.country];
+                self.addressLabel.text = [NSString stringWithFormat:@"%@\n%@ %@ %@ %@ %@", placemark.name, placemark.subThoroughfare?:@"", placemark.thoroughfare?:@"", placemark.locality?:@"", placemark.administrativeArea?:@"", placemark.country?:@""];
             }
         }];
     }
