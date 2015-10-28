@@ -548,6 +548,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="SLc-dZ-Iay">
+                                <rect key="frame" x="150" y="176" width="300" height="300"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="8yd-uG-UgO"/>
+                                    <constraint firstAttribute="width" constant="300" id="eVK-4y-dDG"/>
+                                </constraints>
+                            </mapView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -562,9 +570,11 @@
                             <constraint firstItem="ixt-TX-KL5" firstAttribute="top" secondItem="7Sw-1v-wwL" secondAttribute="bottom" constant="8" id="RJC-rv-2BN"/>
                             <constraint firstAttribute="trailing" secondItem="3h5-zq-VaO" secondAttribute="trailing" constant="20" id="Ubv-iJ-8EA"/>
                             <constraint firstItem="3h5-zq-VaO" firstAttribute="top" secondItem="eJH-JF-9nF" secondAttribute="bottom" constant="8" id="WlW-mq-cUa"/>
+                            <constraint firstItem="SLc-dZ-Iay" firstAttribute="top" secondItem="3h5-zq-VaO" secondAttribute="bottom" constant="20" id="bvt-pf-zQM"/>
                             <constraint firstItem="mXW-v3-C1u" firstAttribute="top" secondItem="ixt-TX-KL5" secondAttribute="bottom" constant="8" id="fir-Yg-n9U"/>
                             <constraint firstItem="xgs-4Z-pWM" firstAttribute="centerX" secondItem="Suf-vc-XmK" secondAttribute="centerX" id="lzb-8I-5xa"/>
                             <constraint firstItem="uv5-6Q-ovD" firstAttribute="top" secondItem="dPr-6P-EZb" secondAttribute="bottom" constant="20" id="mVV-95-57G"/>
+                            <constraint firstItem="SLc-dZ-Iay" firstAttribute="centerX" secondItem="Suf-vc-XmK" secondAttribute="centerX" id="qUk-KC-HfY"/>
                             <constraint firstItem="ixt-TX-KL5" firstAttribute="leading" secondItem="Suf-vc-XmK" secondAttribute="leading" constant="20" id="s1u-9B-EbG"/>
                             <constraint firstAttribute="trailing" secondItem="uv5-6Q-ovD" secondAttribute="trailing" constant="20" id="sJN-MG-dM8"/>
                             <constraint firstItem="eJH-JF-9nF" firstAttribute="trailing" secondItem="Suf-vc-XmK" secondAttribute="trailingMargin" id="sVU-63-EiX"/>

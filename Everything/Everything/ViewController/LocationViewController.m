@@ -8,12 +8,15 @@
 
 #import "LocationViewController.h"
 #import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+#import "LocationPin.h"
 
 @interface LocationViewController () <CLLocationManagerDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *latitudeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *longitudeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *addressLabel;
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @property (nonatomic, assign, getter=isTracking) BOOL tracking;
 @property (nonatomic, strong) CLLocationManager *locationManager;
@@ -40,12 +43,14 @@
     self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
 
     self.geoCoder = [[CLGeocoder alloc] init];
+
+    self.mapView.userTrackingMode = MKUserTrackingModeFollow;
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    [self updateLocation:nil];
+    [self track];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -81,7 +86,8 @@
     }
 }
 
-- (IBAction)trackButtonAction:(id)sender {
+- (void)track
+{
     CLAuthorizationStatus status = [CLLocationManager authorizationStatus];
     if (status == kCLAuthorizationStatusNotDetermined) {
         if ([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
@@ -100,12 +106,16 @@
                 [self updateLocation:self.locationManager.location];
             }
             self.tracking = !self.isTracking;
-            [(UIButton *)sender setTitle:self.isTracking ? @"Stop" : @"Track"
-                                forState:UIControlStateNormal];
         } else {
             NSLog(@"location service not enabled.");
         }
     }
+}
+
+- (IBAction)trackButtonAction:(id)sender {
+    [self track];
+    [(UIButton *)sender setTitle:self.isTracking ? @"Stop" : @"Track"
+                        forState:UIControlStateNormal];
 }
 
 #pragma mark - CLLocationManagerDelegate
