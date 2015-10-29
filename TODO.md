@@ -8,3 +8,6 @@
 * [ ] GPS
 * [ ] A common alertView
 * [ ] NSTimer
+* [ ] Today Widget
+* [ ] PhotosUI
+* [ ] MessageUI
