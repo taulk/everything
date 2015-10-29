@@ -10,6 +10,8 @@
 		A20E97CA1BD7458100209C07 /* UICopyLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E97C91BD7458100209C07 /* UICopyLabelViewController.m */; };
 		A20E97CD1BD7495500209C07 /* UICopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E97CC1BD7495500209C07 /* UICopyLabel.m */; };
 		A20E981B1BD76B2700209C07 /* TableWithCopyCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E981A1BD76B2700209C07 /* TableWithCopyCellViewController.m */; };
+		A25B35801BE118C1005B0E59 /* UIImage+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = A25B357F1BE118C1005B0E59 /* UIImage+Capture.m */; };
+		A25B35831BE119C8005B0E59 /* CaptureScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25B35821BE119C8005B0E59 /* CaptureScrollViewViewController.m */; };
 		A2702A771BDE0BE5009826F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2702A761BDE0BE5009826F0 /* CoreLocation.framework */; };
 		A2702A7A1BDE0C43009826F0 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2702A791BDE0C43009826F0 /* LocationViewController.m */; };
 		A2734AF41BDF67B80048A007 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2734AF31BDF67B80048A007 /* MapKit.framework */; };
@@ -56,6 +58,10 @@
 		A20E97CC1BD7495500209C07 /* UICopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICopyLabel.m; path = View/UICopyLabel.m; sourceTree = "<group>"; };
 		A20E98191BD76B2700209C07 /* TableWithCopyCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableWithCopyCellViewController.h; path = ViewController/TableWithCopyCellViewController.h; sourceTree = "<group>"; };
 		A20E981A1BD76B2700209C07 /* TableWithCopyCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableWithCopyCellViewController.m; path = ViewController/TableWithCopyCellViewController.m; sourceTree = "<group>"; };
+		A25B357E1BE118C1005B0E59 /* UIImage+Capture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Capture.h"; path = "Util/UIImage+Capture.h"; sourceTree = "<group>"; };
+		A25B357F1BE118C1005B0E59 /* UIImage+Capture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Capture.m"; path = "Util/UIImage+Capture.m"; sourceTree = "<group>"; };
+		A25B35811BE119C8005B0E59 /* CaptureScrollViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaptureScrollViewViewController.h; path = ViewController/CaptureScrollViewViewController.h; sourceTree = "<group>"; };
+		A25B35821BE119C8005B0E59 /* CaptureScrollViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaptureScrollViewViewController.m; path = ViewController/CaptureScrollViewViewController.m; sourceTree = "<group>"; };
 		A2702A761BDE0BE5009826F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A2702A781BDE0C43009826F0 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationViewController.h; path = ViewController/LocationViewController.h; sourceTree = "<group>"; };
 		A2702A791BDE0C43009826F0 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationViewController.m; path = ViewController/LocationViewController.m; sourceTree = "<group>"; };
@@ -163,6 +169,8 @@
 				A28184E41BD8CC07009E981B /* ShakeViewController.m */,
 				A2702A781BDE0C43009826F0 /* LocationViewController.h */,
 				A2702A791BDE0C43009826F0 /* LocationViewController.m */,
+				A25B35811BE119C8005B0E59 /* CaptureScrollViewViewController.h */,
+				A25B35821BE119C8005B0E59 /* CaptureScrollViewViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -257,6 +265,8 @@
 			children = (
 				A2DFB4AD1BCE2D3B004C1D76 /* UIImage+Color.h */,
 				A2DFB4AE1BCE2D3B004C1D76 /* UIImage+Color.m */,
+				A25B357E1BE118C1005B0E59 /* UIImage+Capture.h */,
+				A25B357F1BE118C1005B0E59 /* UIImage+Capture.m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -403,6 +413,8 @@
 				A2702A7A1BDE0C43009826F0 /* LocationViewController.m in Sources */,
 				A20E97CA1BD7458100209C07 /* UICopyLabelViewController.m in Sources */,
 				A2734AF81BDF6A820048A007 /* LocationPin.m in Sources */,
+				A25B35801BE118C1005B0E59 /* UIImage+Capture.m in Sources */,
+				A25B35831BE119C8005B0E59 /* CaptureScrollViewViewController.m in Sources */,
 				A2830CFD1BCE1E9F002E1C8B /* ScreenShotViewController.m in Sources */,
 				A2830CF31BCE1A86002E1C8B /* FeatureMeta.m in Sources */,
 				A2DFB4B21BCE2EB7004C1D76 /* ImageWithColorViewController.m in Sources */,

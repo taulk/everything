@@ -460,6 +460,67 @@
             </objects>
             <point key="canvasLocation" x="2142" y="-4514"/>
         </scene>
+        <!--Capture-->
+        <scene sceneID="sBe-7G-8r5">
+            <objects>
+                <viewController storyboardIdentifier="CaptureScrollViewSBID" id="A7x-Jj-zz8" customClass="CaptureScrollViewViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LPh-No-7Np"/>
+                        <viewControllerLayoutGuide type="bottom" id="H2p-m4-d5h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xQn-VX-Fxq">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Yx2-Ft-nhk">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="A7x-Jj-zz8" id="sl9-c2-pgL"/>
+                                    <outlet property="delegate" destination="A7x-Jj-zz8" id="hwe-0a-VdI"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Yx2-Ft-nhk" firstAttribute="leading" secondItem="xQn-VX-Fxq" secondAttribute="leading" id="2Cf-Gy-rN7"/>
+                            <constraint firstItem="H2p-m4-d5h" firstAttribute="top" secondItem="Yx2-Ft-nhk" secondAttribute="bottom" id="Vdt-AF-dtn"/>
+                            <constraint firstAttribute="trailing" secondItem="Yx2-Ft-nhk" secondAttribute="trailing" id="Y1h-hg-3BD"/>
+                            <constraint firstItem="Yx2-Ft-nhk" firstAttribute="top" secondItem="LPh-No-7Np" secondAttribute="bottom" id="d8H-CH-wt9"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Yx2-Ft-nhk"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="2Cf-Gy-rN7"/>
+                                <exclude reference="Y1h-hg-3BD"/>
+                                <exclude reference="d8H-CH-wt9"/>
+                                <exclude reference="Vdt-AF-dtn"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Yx2-Ft-nhk"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="2Cf-Gy-rN7"/>
+                                <include reference="Y1h-hg-3BD"/>
+                                <include reference="d8H-CH-wt9"/>
+                                <include reference="Vdt-AF-dtn"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Capture" id="QVz-tA-YSt"/>
+                    <connections>
+                        <outlet property="tableView" destination="Yx2-Ft-nhk" id="itM-a2-QBZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4GM-RG-6Rt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2953.5" y="-6891"/>
+        </scene>
         <!--Location-->
         <scene sceneID="m5y-HR-EWN">
             <objects>
@@ -629,6 +690,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rxj-xH-ggb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2142" y="-6152"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3AX-Uv-dth">
+            <objects>
+                <navigationController storyboardIdentifier="CaptureScrollViewNavSBID" automaticallyAdjustsScrollViewInsets="NO" id="vHG-ds-rOy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Cst-PE-dfk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="A7x-Jj-zz8" kind="relationship" relationship="rootViewController" id="nva-RF-VPv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hHk-5G-Nj5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2142" y="-6891"/>
         </scene>
     </scenes>
 </document>

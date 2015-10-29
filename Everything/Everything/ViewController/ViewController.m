@@ -73,7 +73,11 @@ static NSString *ViewControllerTableViewCellIdentifier = @"ViewControllerTableVi
     location.title = @"Location";
     location.controllerSBID = @"LocationSBID";
 
-    return @[@[screenShotNotification, shake], @[imageWithColorView, enableCopyLabel, tableWithCopyCell], @[speak, location], @[gcdLock]];
+    FeatureMeta *captureScrollView = [[FeatureMeta alloc] init];
+    captureScrollView.title = @"UIImage(Capture)";
+    captureScrollView.controllerSBID = @"CaptureScrollViewSBID";
+
+    return @[@[screenShotNotification, shake], @[imageWithColorView, captureScrollView, enableCopyLabel, tableWithCopyCell], @[speak, location], @[gcdLock]];
 }
 
 #pragma mark - UITableViewDataSource, UITableViewDelegate
