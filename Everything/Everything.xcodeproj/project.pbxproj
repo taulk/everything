@@ -13,6 +13,8 @@
 		A25B35801BE118C1005B0E59 /* UIImage+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = A25B357F1BE118C1005B0E59 /* UIImage+Capture.m */; };
 		A25B35831BE119C8005B0E59 /* CaptureScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25B35821BE119C8005B0E59 /* CaptureScrollViewViewController.m */; };
 		A26E083D1BE32BE1004DF45B /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A26E083C1BE32BE1004DF45B /* DeviceInfo.m */; };
+		A26E083F1BE33019004DF45B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E083E1BE33019004DF45B /* CoreTelephony.framework */; };
+		A26E08421BE3304A004DF45B /* MobileCarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = A26E08411BE3304A004DF45B /* MobileCarrier.m */; };
 		A2702A771BDE0BE5009826F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2702A761BDE0BE5009826F0 /* CoreLocation.framework */; };
 		A2702A7A1BDE0C43009826F0 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2702A791BDE0C43009826F0 /* LocationViewController.m */; };
 		A2734AF41BDF67B80048A007 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2734AF31BDF67B80048A007 /* MapKit.framework */; };
@@ -66,6 +68,9 @@
 		A26DB5AD1BE26BF60067D2A5 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = Util/Singleton.h; sourceTree = "<group>"; };
 		A26E083B1BE32BE1004DF45B /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceInfo.h; path = Util/DeviceInfo.h; sourceTree = "<group>"; };
 		A26E083C1BE32BE1004DF45B /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceInfo.m; path = Util/DeviceInfo.m; sourceTree = "<group>"; };
+		A26E083E1BE33019004DF45B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A26E08401BE3304A004DF45B /* MobileCarrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobileCarrier.h; path = Util/MobileCarrier.h; sourceTree = "<group>"; };
+		A26E08411BE3304A004DF45B /* MobileCarrier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MobileCarrier.m; path = Util/MobileCarrier.m; sourceTree = "<group>"; };
 		A2702A761BDE0BE5009826F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A2702A781BDE0C43009826F0 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationViewController.h; path = ViewController/LocationViewController.h; sourceTree = "<group>"; };
 		A2702A791BDE0C43009826F0 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationViewController.m; path = ViewController/LocationViewController.m; sourceTree = "<group>"; };
@@ -110,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A26E083F1BE33019004DF45B /* CoreTelephony.framework in Frameworks */,
 				A2734AF41BDF67B80048A007 /* MapKit.framework in Frameworks */,
 				A2702A771BDE0BE5009826F0 /* CoreLocation.framework in Frameworks */,
 				A2AB55BC1BD0E41F00A09B5D /* AVFoundation.framework in Frameworks */,
@@ -256,6 +262,7 @@
 		A2AB55BA1BD0E40500A09B5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A26E083E1BE33019004DF45B /* CoreTelephony.framework */,
 				A2734AF31BDF67B80048A007 /* MapKit.framework */,
 				A2702A761BDE0BE5009826F0 /* CoreLocation.framework */,
 				A2AB55BB1BD0E41F00A09B5D /* AVFoundation.framework */,
@@ -269,6 +276,8 @@
 			children = (
 				A26E083B1BE32BE1004DF45B /* DeviceInfo.h */,
 				A26E083C1BE32BE1004DF45B /* DeviceInfo.m */,
+				A26E08401BE3304A004DF45B /* MobileCarrier.h */,
+				A26E08411BE3304A004DF45B /* MobileCarrier.m */,
 				A26DB5AD1BE26BF60067D2A5 /* Singleton.h */,
 				A25B357E1BE118C1005B0E59 /* UIImage+Capture.h */,
 				A25B357F1BE118C1005B0E59 /* UIImage+Capture.m */,
@@ -415,6 +424,7 @@
 				A2830CFA1BCE1E00002E1C8B /* ViewController.m in Sources */,
 				A2DFB4F61BD0E15A004C1D76 /* SpeakViewController.m in Sources */,
 				A2DFB4AF1BCE2D3B004C1D76 /* UIImage+Color.m in Sources */,
+				A26E08421BE3304A004DF45B /* MobileCarrier.m in Sources */,
 				A20E981B1BD76B2700209C07 /* TableWithCopyCellViewController.m in Sources */,
 				A29E8C841BD0FFEE0079C802 /* GCDLockViewController.m in Sources */,
 				A2702A7A1BDE0C43009826F0 /* LocationViewController.m in Sources */,
