@@ -62,6 +62,7 @@
 		A25B357F1BE118C1005B0E59 /* UIImage+Capture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Capture.m"; path = "Util/UIImage+Capture.m"; sourceTree = "<group>"; };
 		A25B35811BE119C8005B0E59 /* CaptureScrollViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaptureScrollViewViewController.h; path = ViewController/CaptureScrollViewViewController.h; sourceTree = "<group>"; };
 		A25B35821BE119C8005B0E59 /* CaptureScrollViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaptureScrollViewViewController.m; path = ViewController/CaptureScrollViewViewController.m; sourceTree = "<group>"; };
+		A26DB5AD1BE26BF60067D2A5 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = Util/Singleton.h; sourceTree = "<group>"; };
 		A2702A761BDE0BE5009826F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A2702A781BDE0C43009826F0 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationViewController.h; path = ViewController/LocationViewController.h; sourceTree = "<group>"; };
 		A2702A791BDE0C43009826F0 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationViewController.m; path = ViewController/LocationViewController.m; sourceTree = "<group>"; };
@@ -267,6 +268,7 @@
 				A2DFB4AE1BCE2D3B004C1D76 /* UIImage+Color.m */,
 				A25B357E1BE118C1005B0E59 /* UIImage+Capture.h */,
 				A25B357F1BE118C1005B0E59 /* UIImage+Capture.m */,
+				A26DB5AD1BE26BF60067D2A5 /* Singleton.h */,
 			);
 			name = Util;
 			sourceTree = "<group>";
