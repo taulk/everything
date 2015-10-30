@@ -12,6 +12,7 @@
 		A20E981B1BD76B2700209C07 /* TableWithCopyCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E981A1BD76B2700209C07 /* TableWithCopyCellViewController.m */; };
 		A25B35801BE118C1005B0E59 /* UIImage+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = A25B357F1BE118C1005B0E59 /* UIImage+Capture.m */; };
 		A25B35831BE119C8005B0E59 /* CaptureScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25B35821BE119C8005B0E59 /* CaptureScrollViewViewController.m */; };
+		A26E083D1BE32BE1004DF45B /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A26E083C1BE32BE1004DF45B /* DeviceInfo.m */; };
 		A2702A771BDE0BE5009826F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2702A761BDE0BE5009826F0 /* CoreLocation.framework */; };
 		A2702A7A1BDE0C43009826F0 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2702A791BDE0C43009826F0 /* LocationViewController.m */; };
 		A2734AF41BDF67B80048A007 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2734AF31BDF67B80048A007 /* MapKit.framework */; };
@@ -63,6 +64,8 @@
 		A25B35811BE119C8005B0E59 /* CaptureScrollViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaptureScrollViewViewController.h; path = ViewController/CaptureScrollViewViewController.h; sourceTree = "<group>"; };
 		A25B35821BE119C8005B0E59 /* CaptureScrollViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaptureScrollViewViewController.m; path = ViewController/CaptureScrollViewViewController.m; sourceTree = "<group>"; };
 		A26DB5AD1BE26BF60067D2A5 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = Util/Singleton.h; sourceTree = "<group>"; };
+		A26E083B1BE32BE1004DF45B /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceInfo.h; path = Util/DeviceInfo.h; sourceTree = "<group>"; };
+		A26E083C1BE32BE1004DF45B /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceInfo.m; path = Util/DeviceInfo.m; sourceTree = "<group>"; };
 		A2702A761BDE0BE5009826F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A2702A781BDE0C43009826F0 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationViewController.h; path = ViewController/LocationViewController.h; sourceTree = "<group>"; };
 		A2702A791BDE0C43009826F0 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationViewController.m; path = ViewController/LocationViewController.m; sourceTree = "<group>"; };
@@ -142,9 +145,9 @@
 		A2830CF01BCE1A04002E1C8B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A2734AF51BDF6A470048A007 /* Location */,
 				A2830CF11BCE1A86002E1C8B /* FeatureMeta.h */,
 				A2830CF21BCE1A86002E1C8B /* FeatureMeta.m */,
+				A2734AF51BDF6A470048A007 /* Location */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -152,26 +155,26 @@
 		A2830CF41BCE1C61002E1C8B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A20E98191BD76B2700209C07 /* TableWithCopyCellViewController.h */,
-				A20E981A1BD76B2700209C07 /* TableWithCopyCellViewController.m */,
-				A2830CF81BCE1E00002E1C8B /* ViewController.h */,
-				A2830CF91BCE1E00002E1C8B /* ViewController.m */,
-				A2830CFB1BCE1E9F002E1C8B /* ScreenShotViewController.h */,
-				A2830CFC1BCE1E9F002E1C8B /* ScreenShotViewController.m */,
-				A2DFB4B01BCE2EB7004C1D76 /* ImageWithColorViewController.h */,
-				A2DFB4B11BCE2EB7004C1D76 /* ImageWithColorViewController.m */,
-				A2DFB4F41BD0E15A004C1D76 /* SpeakViewController.h */,
-				A2DFB4F51BD0E15A004C1D76 /* SpeakViewController.m */,
-				A29E8C821BD0FFEE0079C802 /* GCDLockViewController.h */,
-				A29E8C831BD0FFEE0079C802 /* GCDLockViewController.m */,
-				A20E97C81BD7458100209C07 /* UICopyLabelViewController.h */,
-				A20E97C91BD7458100209C07 /* UICopyLabelViewController.m */,
-				A28184E31BD8CC07009E981B /* ShakeViewController.h */,
-				A28184E41BD8CC07009E981B /* ShakeViewController.m */,
-				A2702A781BDE0C43009826F0 /* LocationViewController.h */,
-				A2702A791BDE0C43009826F0 /* LocationViewController.m */,
 				A25B35811BE119C8005B0E59 /* CaptureScrollViewViewController.h */,
 				A25B35821BE119C8005B0E59 /* CaptureScrollViewViewController.m */,
+				A29E8C821BD0FFEE0079C802 /* GCDLockViewController.h */,
+				A29E8C831BD0FFEE0079C802 /* GCDLockViewController.m */,
+				A2DFB4B01BCE2EB7004C1D76 /* ImageWithColorViewController.h */,
+				A2DFB4B11BCE2EB7004C1D76 /* ImageWithColorViewController.m */,
+				A2702A781BDE0C43009826F0 /* LocationViewController.h */,
+				A2702A791BDE0C43009826F0 /* LocationViewController.m */,
+				A2830CFB1BCE1E9F002E1C8B /* ScreenShotViewController.h */,
+				A2830CFC1BCE1E9F002E1C8B /* ScreenShotViewController.m */,
+				A28184E31BD8CC07009E981B /* ShakeViewController.h */,
+				A28184E41BD8CC07009E981B /* ShakeViewController.m */,
+				A2DFB4F41BD0E15A004C1D76 /* SpeakViewController.h */,
+				A2DFB4F51BD0E15A004C1D76 /* SpeakViewController.m */,
+				A20E98191BD76B2700209C07 /* TableWithCopyCellViewController.h */,
+				A20E981A1BD76B2700209C07 /* TableWithCopyCellViewController.m */,
+				A20E97C81BD7458100209C07 /* UICopyLabelViewController.h */,
+				A20E97C91BD7458100209C07 /* UICopyLabelViewController.m */,
+				A2830CF81BCE1E00002E1C8B /* ViewController.h */,
+				A2830CF91BCE1E00002E1C8B /* ViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -264,11 +267,13 @@
 		A2DFB4AC1BCE2D10004C1D76 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				A2DFB4AD1BCE2D3B004C1D76 /* UIImage+Color.h */,
-				A2DFB4AE1BCE2D3B004C1D76 /* UIImage+Color.m */,
+				A26E083B1BE32BE1004DF45B /* DeviceInfo.h */,
+				A26E083C1BE32BE1004DF45B /* DeviceInfo.m */,
+				A26DB5AD1BE26BF60067D2A5 /* Singleton.h */,
 				A25B357E1BE118C1005B0E59 /* UIImage+Capture.h */,
 				A25B357F1BE118C1005B0E59 /* UIImage+Capture.m */,
-				A26DB5AD1BE26BF60067D2A5 /* Singleton.h */,
+				A2DFB4AD1BCE2D3B004C1D76 /* UIImage+Color.h */,
+				A2DFB4AE1BCE2D3B004C1D76 /* UIImage+Color.m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -418,6 +423,7 @@
 				A25B35801BE118C1005B0E59 /* UIImage+Capture.m in Sources */,
 				A25B35831BE119C8005B0E59 /* CaptureScrollViewViewController.m in Sources */,
 				A2830CFD1BCE1E9F002E1C8B /* ScreenShotViewController.m in Sources */,
+				A26E083D1BE32BE1004DF45B /* DeviceInfo.m in Sources */,
 				A2830CF31BCE1A86002E1C8B /* FeatureMeta.m in Sources */,
 				A2DFB4B21BCE2EB7004C1D76 /* ImageWithColorViewController.m in Sources */,
 			);
