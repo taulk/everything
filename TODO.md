@@ -11,3 +11,4 @@
 * [ ] Today Widget
 * [ ] PhotosUI
 * [ ] MessageUI
+* [ ] QRCode
