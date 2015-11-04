@@ -12,3 +12,4 @@
 * [ ] PhotosUI
 * [ ] MessageUI
 * [ ] QRCode
+* [ ] TouchID
