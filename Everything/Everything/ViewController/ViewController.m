@@ -77,7 +77,11 @@ static NSString *ViewControllerTableViewCellIdentifier = @"ViewControllerTableVi
     captureScrollView.title = @"UIImage(Capture)";
     captureScrollView.controllerSBID = @"CaptureScrollViewSBID";
 
-    return @[@[screenShotNotification, shake], @[imageWithColorView, captureScrollView, enableCopyLabel, tableWithCopyCell], @[speak, location], @[gcdLock]];
+    FeatureMeta *drawView = [[FeatureMeta alloc] init];
+    drawView.title = @"DrawView";
+    drawView.controllerSBID = @"DrawSBID";
+
+    return @[@[drawView], @[screenShotNotification, shake], @[imageWithColorView, captureScrollView, enableCopyLabel, tableWithCopyCell], @[speak, location], @[gcdLock]];
 }
 
 #pragma mark - UITableViewDataSource, UITableViewDelegate

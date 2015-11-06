@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    // After app is killed, get remoteNotificationUserInfo after relaunch FROM NOTIFICATION CENTER.
+    NSDictionary *remoteNotificationUserInfo = [launchOptions objectForKey:UIApplicationLaunchOptionsRemoteNotificationKey];
+    [self dealWithRemoteNotification:remoteNotificationUserInfo];
+
     return YES;
 }
 
@@ -42,4 +47,22 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+{
+
+}
+
+#pragma mark - RemoteNotification
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
+{
+
+}
+
+#pragma mark - RemoteNotification(Private)
+
+- (void)dealWithRemoteNotification:(NSDictionary *)userInfo
+{
+    // Deal with remote notification.
+}
 @end

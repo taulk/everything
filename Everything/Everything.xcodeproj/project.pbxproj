@@ -10,8 +10,22 @@
 		A20E97CA1BD7458100209C07 /* UICopyLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E97C91BD7458100209C07 /* UICopyLabelViewController.m */; };
 		A20E97CD1BD7495500209C07 /* UICopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E97CC1BD7495500209C07 /* UICopyLabel.m */; };
 		A20E981B1BD76B2700209C07 /* TableWithCopyCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E981A1BD76B2700209C07 /* TableWithCopyCellViewController.m */; };
+		A2155B711BE46EF3002EEC7D /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2155B701BE46EF3002EEC7D /* DrawView.m */; };
+		A2155B741BE46F4B002EEC7D /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2155B731BE46F4B002EEC7D /* DrawViewController.m */; };
 		A25B35801BE118C1005B0E59 /* UIImage+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = A25B357F1BE118C1005B0E59 /* UIImage+Capture.m */; };
 		A25B35831BE119C8005B0E59 /* CaptureScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25B35821BE119C8005B0E59 /* CaptureScrollViewViewController.m */; };
+		A25FDC141BEA0A8300D8D9D0 /* DrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25FDC131BEA0A8300D8D9D0 /* DrawLineView.m */; };
+		A25FDC181BEA0BAB00D8D9D0 /* DrawTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A25FDC161BEA0BAB00D8D9D0 /* DrawTableViewCell.m */; };
+		A25FDC1C1BEA11DA00D8D9D0 /* DrawTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25FDC1B1BEA11DA00D8D9D0 /* DrawTextView.m */; };
+		A25FDC211BEB2A5400D8D9D0 /* DrawSquareBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25FDC201BEB2A5400D8D9D0 /* DrawSquareBorderView.m */; };
+		A25FDC241BEB2B8200D8D9D0 /* DrawSquareNoBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25FDC231BEB2B8200D8D9D0 /* DrawSquareNoBorderView.m */; };
+		A25FDC271BEB2C6B00D8D9D0 /* DrawSquareBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25FDC261BEB2C6B00D8D9D0 /* DrawSquareBackgroundView.m */; };
+		A25FDC2A1BEB2DA100D8D9D0 /* DrawEllipseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25FDC291BEB2DA100D8D9D0 /* DrawEllipseView.m */; };
+		A25FDC2D1BEB2E4000D8D9D0 /* DrawArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25FDC2C1BEB2E4000D8D9D0 /* DrawArcView.m */; };
+		A25FDC301BEB304800D8D9D0 /* DrawGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25FDC2F1BEB304800D8D9D0 /* DrawGradientView.m */; };
+		A25FDC331BEB37B600D8D9D0 /* DrawCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25FDC321BEB37B600D8D9D0 /* DrawCurveView.m */; };
+		A25FDC361BEB428B00D8D9D0 /* DrawImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25FDC351BEB428B00D8D9D0 /* DrawImageView.m */; };
+		A25FDC3A1BEB467B00D8D9D0 /* everything.png in Resources */ = {isa = PBXBuildFile; fileRef = A25FDC391BEB467B00D8D9D0 /* everything.png */; };
 		A26E083D1BE32BE1004DF45B /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A26E083C1BE32BE1004DF45B /* DeviceInfo.m */; };
 		A26E083F1BE33019004DF45B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E083E1BE33019004DF45B /* CoreTelephony.framework */; };
 		A26E08421BE3304A004DF45B /* MobileCarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = A26E08411BE3304A004DF45B /* MobileCarrier.m */; };
@@ -61,10 +75,37 @@
 		A20E97CC1BD7495500209C07 /* UICopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICopyLabel.m; path = View/UICopyLabel.m; sourceTree = "<group>"; };
 		A20E98191BD76B2700209C07 /* TableWithCopyCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableWithCopyCellViewController.h; path = ViewController/TableWithCopyCellViewController.h; sourceTree = "<group>"; };
 		A20E981A1BD76B2700209C07 /* TableWithCopyCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableWithCopyCellViewController.m; path = ViewController/TableWithCopyCellViewController.m; sourceTree = "<group>"; };
+		A2155B6F1BE46EF3002EEC7D /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawView.h; path = View/DrawView.h; sourceTree = "<group>"; };
+		A2155B701BE46EF3002EEC7D /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawView.m; path = View/DrawView.m; sourceTree = "<group>"; };
+		A2155B721BE46F4B002EEC7D /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawViewController.h; path = ViewController/DrawViewController.h; sourceTree = "<group>"; };
+		A2155B731BE46F4B002EEC7D /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawViewController.m; path = ViewController/DrawViewController.m; sourceTree = "<group>"; };
 		A25B357E1BE118C1005B0E59 /* UIImage+Capture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Capture.h"; path = "Util/UIImage+Capture.h"; sourceTree = "<group>"; };
 		A25B357F1BE118C1005B0E59 /* UIImage+Capture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Capture.m"; path = "Util/UIImage+Capture.m"; sourceTree = "<group>"; };
 		A25B35811BE119C8005B0E59 /* CaptureScrollViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaptureScrollViewViewController.h; path = ViewController/CaptureScrollViewViewController.h; sourceTree = "<group>"; };
 		A25B35821BE119C8005B0E59 /* CaptureScrollViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaptureScrollViewViewController.m; path = ViewController/CaptureScrollViewViewController.m; sourceTree = "<group>"; };
+		A25FDC121BEA0A8300D8D9D0 /* DrawLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawLineView.h; path = View/Draw/DrawLineView.h; sourceTree = "<group>"; };
+		A25FDC131BEA0A8300D8D9D0 /* DrawLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawLineView.m; path = View/Draw/DrawLineView.m; sourceTree = "<group>"; };
+		A25FDC151BEA0BAB00D8D9D0 /* DrawTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawTableViewCell.h; path = View/Draw/Cell/DrawTableViewCell.h; sourceTree = "<group>"; };
+		A25FDC161BEA0BAB00D8D9D0 /* DrawTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawTableViewCell.m; path = View/Draw/Cell/DrawTableViewCell.m; sourceTree = "<group>"; };
+		A25FDC1A1BEA11DA00D8D9D0 /* DrawTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawTextView.h; path = View/Draw/DrawTextView.h; sourceTree = "<group>"; };
+		A25FDC1B1BEA11DA00D8D9D0 /* DrawTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawTextView.m; path = View/Draw/DrawTextView.m; sourceTree = "<group>"; };
+		A25FDC1F1BEB2A5400D8D9D0 /* DrawSquareBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawSquareBorderView.h; path = View/Draw/DrawSquareBorderView.h; sourceTree = "<group>"; };
+		A25FDC201BEB2A5400D8D9D0 /* DrawSquareBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawSquareBorderView.m; path = View/Draw/DrawSquareBorderView.m; sourceTree = "<group>"; };
+		A25FDC221BEB2B8200D8D9D0 /* DrawSquareNoBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawSquareNoBorderView.h; path = View/Draw/DrawSquareNoBorderView.h; sourceTree = "<group>"; };
+		A25FDC231BEB2B8200D8D9D0 /* DrawSquareNoBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawSquareNoBorderView.m; path = View/Draw/DrawSquareNoBorderView.m; sourceTree = "<group>"; };
+		A25FDC251BEB2C6B00D8D9D0 /* DrawSquareBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawSquareBackgroundView.h; path = View/Draw/DrawSquareBackgroundView.h; sourceTree = "<group>"; };
+		A25FDC261BEB2C6B00D8D9D0 /* DrawSquareBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawSquareBackgroundView.m; path = View/Draw/DrawSquareBackgroundView.m; sourceTree = "<group>"; };
+		A25FDC281BEB2DA100D8D9D0 /* DrawEllipseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawEllipseView.h; path = View/Draw/DrawEllipseView.h; sourceTree = "<group>"; };
+		A25FDC291BEB2DA100D8D9D0 /* DrawEllipseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawEllipseView.m; path = View/Draw/DrawEllipseView.m; sourceTree = "<group>"; };
+		A25FDC2B1BEB2E4000D8D9D0 /* DrawArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawArcView.h; path = View/Draw/DrawArcView.h; sourceTree = "<group>"; };
+		A25FDC2C1BEB2E4000D8D9D0 /* DrawArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawArcView.m; path = View/Draw/DrawArcView.m; sourceTree = "<group>"; };
+		A25FDC2E1BEB304800D8D9D0 /* DrawGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawGradientView.h; path = View/Draw/DrawGradientView.h; sourceTree = "<group>"; };
+		A25FDC2F1BEB304800D8D9D0 /* DrawGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawGradientView.m; path = View/Draw/DrawGradientView.m; sourceTree = "<group>"; };
+		A25FDC311BEB37B600D8D9D0 /* DrawCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawCurveView.h; path = View/Draw/DrawCurveView.h; sourceTree = "<group>"; };
+		A25FDC321BEB37B600D8D9D0 /* DrawCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawCurveView.m; path = View/Draw/DrawCurveView.m; sourceTree = "<group>"; };
+		A25FDC341BEB428B00D8D9D0 /* DrawImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawImageView.h; path = View/Draw/DrawImageView.h; sourceTree = "<group>"; };
+		A25FDC351BEB428B00D8D9D0 /* DrawImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawImageView.m; path = View/Draw/DrawImageView.m; sourceTree = "<group>"; };
+		A25FDC391BEB467B00D8D9D0 /* everything.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = everything.png; sourceTree = "<group>"; };
 		A26DB5AD1BE26BF60067D2A5 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = Util/Singleton.h; sourceTree = "<group>"; };
 		A26E083B1BE32BE1004DF45B /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceInfo.h; path = Util/DeviceInfo.h; sourceTree = "<group>"; };
 		A26E083C1BE32BE1004DF45B /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceInfo.m; path = Util/DeviceInfo.m; sourceTree = "<group>"; };
@@ -139,6 +180,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A25FDC111BEA09D000D8D9D0 /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				A25FDC391BEB467B00D8D9D0 /* everything.png */,
+				A25FDC1E1BEB29D700D8D9D0 /* Base */,
+				A25FDC1D1BEB29C600D8D9D0 /* Cell */,
+				A25FDC121BEA0A8300D8D9D0 /* DrawLineView.h */,
+				A25FDC131BEA0A8300D8D9D0 /* DrawLineView.m */,
+				A25FDC1A1BEA11DA00D8D9D0 /* DrawTextView.h */,
+				A25FDC1B1BEA11DA00D8D9D0 /* DrawTextView.m */,
+				A25FDC1F1BEB2A5400D8D9D0 /* DrawSquareBorderView.h */,
+				A25FDC201BEB2A5400D8D9D0 /* DrawSquareBorderView.m */,
+				A25FDC221BEB2B8200D8D9D0 /* DrawSquareNoBorderView.h */,
+				A25FDC231BEB2B8200D8D9D0 /* DrawSquareNoBorderView.m */,
+				A25FDC251BEB2C6B00D8D9D0 /* DrawSquareBackgroundView.h */,
+				A25FDC261BEB2C6B00D8D9D0 /* DrawSquareBackgroundView.m */,
+				A25FDC281BEB2DA100D8D9D0 /* DrawEllipseView.h */,
+				A25FDC291BEB2DA100D8D9D0 /* DrawEllipseView.m */,
+				A25FDC2B1BEB2E4000D8D9D0 /* DrawArcView.h */,
+				A25FDC2C1BEB2E4000D8D9D0 /* DrawArcView.m */,
+				A25FDC2E1BEB304800D8D9D0 /* DrawGradientView.h */,
+				A25FDC2F1BEB304800D8D9D0 /* DrawGradientView.m */,
+				A25FDC311BEB37B600D8D9D0 /* DrawCurveView.h */,
+				A25FDC321BEB37B600D8D9D0 /* DrawCurveView.m */,
+				A25FDC341BEB428B00D8D9D0 /* DrawImageView.h */,
+				A25FDC351BEB428B00D8D9D0 /* DrawImageView.m */,
+			);
+			name = Draw;
+			sourceTree = "<group>";
+		};
+		A25FDC1D1BEB29C600D8D9D0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A25FDC151BEA0BAB00D8D9D0 /* DrawTableViewCell.h */,
+				A25FDC161BEA0BAB00D8D9D0 /* DrawTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		A25FDC1E1BEB29D700D8D9D0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A2155B6F1BE46EF3002EEC7D /* DrawView.h */,
+				A2155B701BE46EF3002EEC7D /* DrawView.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		A2734AF51BDF6A470048A007 /* Location */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +252,8 @@
 			children = (
 				A25B35811BE119C8005B0E59 /* CaptureScrollViewViewController.h */,
 				A25B35821BE119C8005B0E59 /* CaptureScrollViewViewController.m */,
+				A2155B721BE46F4B002EEC7D /* DrawViewController.h */,
+				A2155B731BE46F4B002EEC7D /* DrawViewController.m */,
 				A29E8C821BD0FFEE0079C802 /* GCDLockViewController.h */,
 				A29E8C831BD0FFEE0079C802 /* GCDLockViewController.m */,
 				A2DFB4B01BCE2EB7004C1D76 /* ImageWithColorViewController.h */,
@@ -188,6 +279,7 @@
 		A2830CFE1BCE2C5A002E1C8B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A25FDC111BEA09D000D8D9D0 /* Draw */,
 				A20E97CB1BD7495500209C07 /* UICopyLabel.h */,
 				A20E97CC1BD7495500209C07 /* UICopyLabel.m */,
 			);
@@ -392,6 +484,7 @@
 			files = (
 				A29348021BC76B3000D4989B /* LaunchScreen.storyboard in Resources */,
 				A29347FF1BC76B3000D4989B /* Assets.xcassets in Resources */,
+				A25FDC3A1BEB467B00D8D9D0 /* everything.png in Resources */,
 				A29347FD1BC76B3000D4989B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,22 +513,35 @@
 				A29347F71BC76B3000D4989B /* AppDelegate.m in Sources */,
 				A28184E51BD8CC07009E981B /* ShakeViewController.m in Sources */,
 				A20E97CD1BD7495500209C07 /* UICopyLabel.m in Sources */,
+				A25FDC331BEB37B600D8D9D0 /* DrawCurveView.m in Sources */,
 				A29347F41BC76B3000D4989B /* main.m in Sources */,
 				A2830CFA1BCE1E00002E1C8B /* ViewController.m in Sources */,
 				A2DFB4F61BD0E15A004C1D76 /* SpeakViewController.m in Sources */,
 				A2DFB4AF1BCE2D3B004C1D76 /* UIImage+Color.m in Sources */,
+				A25FDC211BEB2A5400D8D9D0 /* DrawSquareBorderView.m in Sources */,
 				A26E08421BE3304A004DF45B /* MobileCarrier.m in Sources */,
 				A20E981B1BD76B2700209C07 /* TableWithCopyCellViewController.m in Sources */,
+				A2155B741BE46F4B002EEC7D /* DrawViewController.m in Sources */,
 				A29E8C841BD0FFEE0079C802 /* GCDLockViewController.m in Sources */,
+				A25FDC301BEB304800D8D9D0 /* DrawGradientView.m in Sources */,
 				A2702A7A1BDE0C43009826F0 /* LocationViewController.m in Sources */,
 				A20E97CA1BD7458100209C07 /* UICopyLabelViewController.m in Sources */,
 				A2734AF81BDF6A820048A007 /* LocationPin.m in Sources */,
 				A25B35801BE118C1005B0E59 /* UIImage+Capture.m in Sources */,
+				A2155B711BE46EF3002EEC7D /* DrawView.m in Sources */,
+				A25FDC181BEA0BAB00D8D9D0 /* DrawTableViewCell.m in Sources */,
+				A25FDC141BEA0A8300D8D9D0 /* DrawLineView.m in Sources */,
 				A25B35831BE119C8005B0E59 /* CaptureScrollViewViewController.m in Sources */,
+				A25FDC361BEB428B00D8D9D0 /* DrawImageView.m in Sources */,
 				A2830CFD1BCE1E9F002E1C8B /* ScreenShotViewController.m in Sources */,
 				A26E083D1BE32BE1004DF45B /* DeviceInfo.m in Sources */,
 				A2830CF31BCE1A86002E1C8B /* FeatureMeta.m in Sources */,
 				A2DFB4B21BCE2EB7004C1D76 /* ImageWithColorViewController.m in Sources */,
+				A25FDC271BEB2C6B00D8D9D0 /* DrawSquareBackgroundView.m in Sources */,
+				A25FDC2D1BEB2E4000D8D9D0 /* DrawArcView.m in Sources */,
+				A25FDC241BEB2B8200D8D9D0 /* DrawSquareNoBorderView.m in Sources */,
+				A25FDC1C1BEA11DA00D8D9D0 /* DrawTextView.m in Sources */,
+				A25FDC2A1BEB2DA100D8D9D0 /* DrawEllipseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
