@@ -13,3 +13,4 @@
 * [ ] MessageUI
 * [ ] QRCode
 * [ ] TouchID
+* [ ] TableView Bad practise. [Ref](http://stackoverflow.com/questions/31862935/uitableviewcell-very-slow-response-on-select)
