@@ -460,6 +460,77 @@
             </objects>
             <point key="canvasLocation" x="2142" y="-4514"/>
         </scene>
+        <!--TouchID-->
+        <scene sceneID="DgY-YQ-2Fz">
+            <objects>
+                <viewController storyboardIdentifier="TouchIDSBID" id="uKn-ZZ-X7r" customClass="TouchIDViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DJ3-A5-QKq"/>
+                        <viewControllerLayoutGuide type="bottom" id="OMZ-3m-dJe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RsH-Uh-S3v">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jUN-vD-idU">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="1t0-ee-dsL"/>
+                                    <constraint firstAttribute="height" constant="30" id="HML-c3-emU"/>
+                                </constraints>
+                                <state key="normal" title="Auth"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1t0-ee-dsL"/>
+                                        <exclude reference="HML-c3-emU"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1t0-ee-dsL"/>
+                                        <include reference="HML-c3-emU"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="authButtonAction:" destination="uKn-ZZ-X7r" eventType="touchUpInside" id="065-Pw-W7S"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jUN-vD-idU" firstAttribute="centerX" secondItem="RsH-Uh-S3v" secondAttribute="centerX" id="098-ip-z9m"/>
+                            <constraint firstItem="jUN-vD-idU" firstAttribute="centerY" secondItem="RsH-Uh-S3v" secondAttribute="centerY" id="AyV-te-nOQ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="jUN-vD-idU"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="098-ip-z9m"/>
+                                <exclude reference="AyV-te-nOQ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="jUN-vD-idU"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="098-ip-z9m"/>
+                                <include reference="AyV-te-nOQ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="TouchID" id="NHh-U0-cvb"/>
+                    <connections>
+                        <outlet property="authButton" destination="jUN-vD-idU" id="BWp-T7-Gv7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iJ9-09-qxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2953.5" y="-8457.75"/>
+        </scene>
         <!--Draw-->
         <scene sceneID="wuI-cH-MuQ">
             <objects>
@@ -791,6 +862,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IsK-8R-cNm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2142" y="-7677.75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HII-iD-Azk">
+            <objects>
+                <navigationController storyboardIdentifier="TouchIDNavSBID" automaticallyAdjustsScrollViewInsets="NO" id="W2n-aS-98y" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" restorationIdentifier="TouchIDNavSBID" translucent="NO" id="Kul-4x-GQW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uKn-ZZ-X7r" kind="relationship" relationship="rootViewController" id="9V5-33-HzT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="So6-E9-Rt0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2142" y="-8457.75"/>
         </scene>
     </scenes>
 </document>

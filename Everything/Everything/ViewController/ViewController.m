@@ -81,7 +81,11 @@ static NSString *ViewControllerTableViewCellIdentifier = @"ViewControllerTableVi
     drawView.title = @"DrawView";
     drawView.controllerSBID = @"DrawSBID";
 
-    return @[@[drawView], @[screenShotNotification, shake], @[imageWithColorView, captureScrollView, enableCopyLabel, tableWithCopyCell], @[speak, location], @[gcdLock]];
+    FeatureMeta *authWithTouchID = [[FeatureMeta alloc] init];
+    authWithTouchID.title = @"Auth(TouchID)";
+    authWithTouchID.controllerSBID = @"TouchIDSBID";
+
+    return @[@[drawView], @[screenShotNotification, shake], @[imageWithColorView, captureScrollView, enableCopyLabel, tableWithCopyCell], @[speak, location, authWithTouchID], @[gcdLock]];
 }
 
 #pragma mark - UITableViewDataSource, UITableViewDelegate

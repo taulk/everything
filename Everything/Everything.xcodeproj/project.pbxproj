@@ -49,6 +49,7 @@
 		A2DFB4AF1BCE2D3B004C1D76 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DFB4AE1BCE2D3B004C1D76 /* UIImage+Color.m */; };
 		A2DFB4B21BCE2EB7004C1D76 /* ImageWithColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DFB4B11BCE2EB7004C1D76 /* ImageWithColorViewController.m */; };
 		A2DFB4F61BD0E15A004C1D76 /* SpeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DFB4F51BD0E15A004C1D76 /* SpeakViewController.m */; };
+		A2E1D8781BF1EF4D00E83BF1 /* TouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E1D8771BF1EF4D00E83BF1 /* TouchIDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +150,8 @@
 		A2DFB4B11BCE2EB7004C1D76 /* ImageWithColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageWithColorViewController.m; path = ViewController/ImageWithColorViewController.m; sourceTree = "<group>"; };
 		A2DFB4F41BD0E15A004C1D76 /* SpeakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeakViewController.h; path = ViewController/SpeakViewController.h; sourceTree = "<group>"; };
 		A2DFB4F51BD0E15A004C1D76 /* SpeakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeakViewController.m; path = ViewController/SpeakViewController.m; sourceTree = "<group>"; };
+		A2E1D8761BF1EF4D00E83BF1 /* TouchIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchIDViewController.h; path = ViewController/TouchIDViewController.h; sourceTree = "<group>"; };
+		A2E1D8771BF1EF4D00E83BF1 /* TouchIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchIDViewController.m; path = ViewController/TouchIDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +271,8 @@
 				A2DFB4F51BD0E15A004C1D76 /* SpeakViewController.m */,
 				A20E98191BD76B2700209C07 /* TableWithCopyCellViewController.h */,
 				A20E981A1BD76B2700209C07 /* TableWithCopyCellViewController.m */,
+				A2E1D8761BF1EF4D00E83BF1 /* TouchIDViewController.h */,
+				A2E1D8771BF1EF4D00E83BF1 /* TouchIDViewController.m */,
 				A20E97C81BD7458100209C07 /* UICopyLabelViewController.h */,
 				A20E97C91BD7458100209C07 /* UICopyLabelViewController.m */,
 				A2830CF81BCE1E00002E1C8B /* ViewController.h */,
@@ -540,6 +545,7 @@
 				A25FDC271BEB2C6B00D8D9D0 /* DrawSquareBackgroundView.m in Sources */,
 				A25FDC2D1BEB2E4000D8D9D0 /* DrawArcView.m in Sources */,
 				A25FDC241BEB2B8200D8D9D0 /* DrawSquareNoBorderView.m in Sources */,
+				A2E1D8781BF1EF4D00E83BF1 /* TouchIDViewController.m in Sources */,
 				A25FDC1C1BEA11DA00D8D9D0 /* DrawTextView.m in Sources */,
 				A25FDC2A1BEB2DA100D8D9D0 /* DrawEllipseView.m in Sources */,
 			);
