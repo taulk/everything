@@ -85,7 +85,11 @@ static NSString *ViewControllerTableViewCellIdentifier = @"ViewControllerTableVi
     authWithTouchID.title = @"Auth(TouchID)";
     authWithTouchID.controllerSBID = @"TouchIDSBID";
 
-    return @[@[drawView], @[screenShotNotification, shake], @[imageWithColorView, captureScrollView, enableCopyLabel, tableWithCopyCell], @[speak, location, authWithTouchID], @[gcdLock]];
+    FeatureMeta *detectVolume = [[FeatureMeta alloc] init];
+    detectVolume.title = @"DetectVolume(PrivateAPI)";
+    detectVolume.controllerSBID = @"DetectVolumeSBID";
+
+    return @[@[drawView], @[screenShotNotification, shake, detectVolume], @[imageWithColorView, captureScrollView, enableCopyLabel, tableWithCopyCell], @[speak, location, authWithTouchID], @[gcdLock]];
 }
 
 #pragma mark - UITableViewDataSource, UITableViewDelegate
