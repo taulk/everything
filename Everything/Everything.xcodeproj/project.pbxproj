@@ -84,6 +84,7 @@
 		A2155B731BE46F4B002EEC7D /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawViewController.m; path = ViewController/DrawViewController.m; sourceTree = "<group>"; };
 		A231F8871C14170B00FFE352 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = Util/Logger.h; sourceTree = "<group>"; };
 		A231F8881C14170B00FFE352 /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Logger.m; path = Util/Logger.m; sourceTree = "<group>"; };
+		A231F88B1C142E4500FFE352 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A25B357E1BE118C1005B0E59 /* UIImage+Capture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Capture.h"; path = "Util/UIImage+Capture.h"; sourceTree = "<group>"; };
 		A25B357F1BE118C1005B0E59 /* UIImage+Capture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Capture.m"; path = "Util/UIImage+Capture.m"; sourceTree = "<group>"; };
 		A25B35811BE119C8005B0E59 /* CaptureScrollViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaptureScrollViewViewController.h; path = ViewController/CaptureScrollViewViewController.h; sourceTree = "<group>"; };
@@ -334,6 +335,7 @@
 				A29348001BC76B3000D4989B /* LaunchScreen.storyboard */,
 				A29348031BC76B3000D4989B /* Info.plist */,
 				A29347F21BC76B3000D4989B /* Supporting Files */,
+				A231F88B1C142E4500FFE352 /* PrefixHeader.pch */,
 			);
 			path = Everything;
 			sourceTree = "<group>";
@@ -698,6 +700,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Everything/PrefixHeader.pch;
 				INFOPLIST_FILE = Everything/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tau.github.Everything;
@@ -709,6 +712,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Everything/PrefixHeader.pch;
 				INFOPLIST_FILE = Everything/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tau.github.Everything;

@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  Everything
+//
+//  Created by Kai Li on 12/6/15.
+//  Copyright © 2015 Tau. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// Add '[ProjectName]/PrefixHeader.pch' to Projects->TARGETS->[ProjectName]->Build Settings manually.
+
+#import "Logger.h"
+
+#endif /* PrefixHeader_pch */
