@@ -36,5 +36,10 @@ void _DebugLog(const char *file, int lineNumber, const char *funcName, NSString 
     [dateFormatter setTimeZone:[NSTimeZone localTimeZone]];
     NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
 
+    fprintf(stderr, "Call Stack Begin\n");
+    for (NSString *s in [NSThread callStackSymbols]) {
+        fprintf(stderr, "%s", [s UTF8String]);
+    }
+    fprintf(stderr, "\nCall Stack End\n");
     fprintf(stderr,"%s [%s:%d] (%s) [thread:%s%s] %s", [dateString UTF8String], [fileName UTF8String],lineNumber,funcName, threadIdString, mainThread, [body UTF8String]);
 }
