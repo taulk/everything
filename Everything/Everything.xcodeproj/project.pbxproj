@@ -12,6 +12,7 @@
 		A20E981B1BD76B2700209C07 /* TableWithCopyCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E981A1BD76B2700209C07 /* TableWithCopyCellViewController.m */; };
 		A2155B711BE46EF3002EEC7D /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2155B701BE46EF3002EEC7D /* DrawView.m */; };
 		A2155B741BE46F4B002EEC7D /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2155B731BE46F4B002EEC7D /* DrawViewController.m */; };
+		A231F8891C14170B00FFE352 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = A231F8881C14170B00FFE352 /* Logger.m */; };
 		A25B35801BE118C1005B0E59 /* UIImage+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = A25B357F1BE118C1005B0E59 /* UIImage+Capture.m */; };
 		A25B35831BE119C8005B0E59 /* CaptureScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25B35821BE119C8005B0E59 /* CaptureScrollViewViewController.m */; };
 		A25FDC141BEA0A8300D8D9D0 /* DrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25FDC131BEA0A8300D8D9D0 /* DrawLineView.m */; };
@@ -81,6 +82,8 @@
 		A2155B701BE46EF3002EEC7D /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawView.m; path = View/DrawView.m; sourceTree = "<group>"; };
 		A2155B721BE46F4B002EEC7D /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawViewController.h; path = ViewController/DrawViewController.h; sourceTree = "<group>"; };
 		A2155B731BE46F4B002EEC7D /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawViewController.m; path = ViewController/DrawViewController.m; sourceTree = "<group>"; };
+		A231F8871C14170B00FFE352 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = Util/Logger.h; sourceTree = "<group>"; };
+		A231F8881C14170B00FFE352 /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Logger.m; path = Util/Logger.m; sourceTree = "<group>"; };
 		A25B357E1BE118C1005B0E59 /* UIImage+Capture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Capture.h"; path = "Util/UIImage+Capture.h"; sourceTree = "<group>"; };
 		A25B357F1BE118C1005B0E59 /* UIImage+Capture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Capture.m"; path = "Util/UIImage+Capture.m"; sourceTree = "<group>"; };
 		A25B35811BE119C8005B0E59 /* CaptureScrollViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaptureScrollViewViewController.h; path = ViewController/CaptureScrollViewViewController.h; sourceTree = "<group>"; };
@@ -378,6 +381,8 @@
 			children = (
 				A26E083B1BE32BE1004DF45B /* DeviceInfo.h */,
 				A26E083C1BE32BE1004DF45B /* DeviceInfo.m */,
+				A231F8871C14170B00FFE352 /* Logger.h */,
+				A231F8881C14170B00FFE352 /* Logger.m */,
 				A26E08401BE3304A004DF45B /* MobileCarrier.h */,
 				A26E08411BE3304A004DF45B /* MobileCarrier.m */,
 				A26DB5AD1BE26BF60067D2A5 /* Singleton.h */,
@@ -539,6 +544,7 @@
 				A2734AF81BDF6A820048A007 /* LocationPin.m in Sources */,
 				A25B35801BE118C1005B0E59 /* UIImage+Capture.m in Sources */,
 				A2155B711BE46EF3002EEC7D /* DrawView.m in Sources */,
+				A231F8891C14170B00FFE352 /* Logger.m in Sources */,
 				A25FDC181BEA0BAB00D8D9D0 /* DrawTableViewCell.m in Sources */,
 				A25FDC141BEA0A8300D8D9D0 /* DrawLineView.m in Sources */,
 				A25B35831BE119C8005B0E59 /* CaptureScrollViewViewController.m in Sources */,
